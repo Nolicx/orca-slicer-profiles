@@ -2,7 +2,7 @@
     "auxiliary_fan": "1",
     "from": "User",
     "inherits": "Voron Trident 300 0.4 nozzle",
-    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\nSET_PRINT_STATS_INFO CURRENT_LAYER=[cur_layer]",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}\n",
     "machine_max_acceleration_e": [
         "10000",
         "5000"
