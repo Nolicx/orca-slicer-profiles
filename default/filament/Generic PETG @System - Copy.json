@@ -1,0 +1,33 @@
+{
+    "compatible_printers": [
+        "Voron Trident 300 0.4 nozzle"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_deretraction_speed": [
+        "35"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_retraction_length": [
+        "2"
+    ],
+    "filament_retraction_speed": [
+        "35"
+    ],
+    "filament_settings_id": [
+        "Generic PETG @System - Copy"
+    ],
+    "from": "User",
+    "inherits": "Generic PETG @System",
+    "name": "Generic PETG @System - Copy",
+    "textured_cool_plate_temp": [
+        "50"
+    ],
+    "textured_cool_plate_temp_initial_layer": [
+        "50"
+    ],
+    "version": "2.3.1.10"
+}

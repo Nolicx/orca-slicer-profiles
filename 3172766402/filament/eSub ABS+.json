@@ -1,0 +1,61 @@
+{
+    "compatible_printers": [
+        "Voron Trident 300 0.4 nozzle"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "105"
+    ],
+    "fan_max_speed": [
+        "0"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_deretraction_speed": [
+        "35"
+    ],
+    "filament_flow_ratio": [
+        "0.929"
+    ],
+    "filament_max_volumetric_speed": [
+        "5"
+    ],
+    "filament_retraction_length": [
+        "1"
+    ],
+    "filament_retraction_speed": [
+        "35"
+    ],
+    "filament_settings_id": [
+        "eSub ABS+"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "105"
+    ],
+    "inherits": "Generic ABS @System",
+    "is_custom_defined": "0",
+    "name": "eSub ABS+",
+    "nozzle_temperature": [
+        "290"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290"
+    ],
+    "overhang_fan_speed": [
+        "20"
+    ],
+    "pressure_advance": [
+        "0.0225"
+    ],
+    "slow_down_layer_time": [
+        "5"
+    ],
+    "textured_plate_temp": [
+        "105"
+    ],
+    "version": "2.3.1.10"
+}

@@ -1,0 +1,70 @@
+{
+    "adaptive_pressure_advance": [
+        "1"
+    ],
+    "adaptive_pressure_advance_model": [
+        "0.04,3.794,4000\n0.04,3.794,10000\n\n0.0325,7.59,4000\n0.03,7.59,10000\n\n0.03125,11.4,4000\n0.0275,11.4,10000\n\n0.03,19,4000\n0.0225,19,10000\n\n0.0275,26.6,4000\n0.02,26.6,10000\n\n0.025,34.1,4000\n0.0175,34.1,10000"
+    ],
+    "adaptive_pressure_advance_overhangs": [
+        "1"
+    ],
+    "additional_cooling_fan_speed": [
+        "10"
+    ],
+    "compatible_printers": [
+        "Voron Trident 300 0.4 nozzle"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "105"
+    ],
+    "filament_deretraction_speed": [
+        "35"
+    ],
+    "filament_flow_ratio": [
+        "0.934"
+    ],
+    "filament_max_volumetric_speed": [
+        "25"
+    ],
+    "filament_retract_when_changing_layer": [
+        "0"
+    ],
+    "filament_retraction_length": [
+        "1"
+    ],
+    "filament_retraction_speed": [
+        "35"
+    ],
+    "filament_settings_id": [
+        "General ABS"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "105"
+    ],
+    "inherits": "Generic ABS @System",
+    "is_custom_defined": "0",
+    "name": "General ABS",
+    "nozzle_temperature": [
+        "290"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290"
+    ],
+    "nozzle_temperature_range_high": [
+        "320"
+    ],
+    "pressure_advance": [
+        "0.032"
+    ],
+    "slow_down_layer_time": [
+        "2"
+    ],
+    "textured_plate_temp": [
+        "105"
+    ],
+    "version": "2.3.1.10"
+}

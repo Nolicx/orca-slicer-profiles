@@ -1,0 +1,13 @@
+{
+    "compatible_printers": [
+        "Voron Trident 300 0.4 nozzle"
+    ],
+    "filament_settings_id": [
+        "Generic ABS @System - Copy"
+    ],
+    "from": "User",
+    "inherits": "Generic ABS @System",
+    "is_custom_defined": "0",
+    "name": "Generic ABS @System - Copy",
+    "version": "2.3.1.10"
+}

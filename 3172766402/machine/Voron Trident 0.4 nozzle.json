@@ -1,0 +1,25 @@
+{
+    "from": "User",
+    "inherits": "Voron Trident 300 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_x": [
+        "25000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "25000",
+        "20000"
+    ],
+    "machine_start_gcode": "; M190 S[bed_temperature_initial_layer_single]\n; M109 S[nozzle_temperature_initial_layer]\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\n; M109 S[nozzle_temperature_initial_layer]\n; You can use following code instead if your PRINT_START macro support Chamber and print area bedmesh\n; PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] Chamber=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} ; PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}\n\n\n",
+    "name": "Voron Trident 0.4 nozzle",
+    "print_host": "192.168.178.132",
+    "printer_settings_id": "Voron Trident 0.4 nozzle",
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "support_multi_bed_types": "1",
+    "version": "2.3.1.10",
+    "wipe": [
+        "0"
+    ]
+}
