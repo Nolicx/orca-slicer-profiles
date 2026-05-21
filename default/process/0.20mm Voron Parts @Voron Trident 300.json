@@ -1,6 +1,6 @@
 {
     "bottom_shell_layers": "5",
-    "default_acceleration": "10000",
+    "default_acceleration": "20000",
     "enable_support": "1",
     "from": "User",
     "gap_infill_speed": "250",
@@ -8,7 +8,7 @@
     "initial_layer_acceleration": "4000",
     "initial_layer_infill_speed": "100",
     "initial_layer_line_width": "0.4",
-    "inner_wall_acceleration": "10000",
+    "inner_wall_acceleration": "20000",
     "inner_wall_speed": "350",
     "internal_solid_infill_acceleration": "115000",
     "internal_solid_infill_speed": "450",
@@ -38,8 +38,8 @@
     "top_shell_layers": "5",
     "top_surface_acceleration": "4000",
     "top_surface_speed": "250",
-    "travel_acceleration": "20000",
-    "travel_speed": "500",
+    "travel_acceleration": "30000",
+    "travel_speed": "650",
     "version": "2.3.1.10",
     "wall_loops": "4"
 }

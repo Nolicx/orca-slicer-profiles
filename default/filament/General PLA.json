@@ -2,11 +2,11 @@
     "adaptive_pressure_advance": [
         "1"
     ],
-    "adaptive_pressure_advance_model": [
-        "0,0,0\n\n0.04,4.01,4000\n0.042,4.01,10000\n\n0.036,8.019,4000\n0.04,8.019,10000\n\n0.032,12.03,4000\n0.032,12.03,10000\n\n0.026,20.09,4000\n0.022,20.09,10000\n\n0.022,28.07,4000\n0.018,28.07,10000\n\n0.02,36.09,4000\n0.016,36.09,10000"
+    "adaptive_pressure_advance_bridges": [
+        "0.01"
     ],
-    "adaptive_pressure_advance_overhangs": [
-        "1"
+    "adaptive_pressure_advance_model": [
+        "0.055, 3.92, 1000\n0.035, 7.84, 1000\n0.035, 11.8, 1000\n0.035, 15.7, 1000\n0.0325, 19.6, 1000\n\n0.05, 3.92, 2000\n0.04, 7.84, 2000\n0.035, 11.8, 2000\n0.0325, 15.7, 2000\n0.03, 19.6, 2000\n\n0.0475, 3.92, 4000\n0.04, 7.84. 4000\n0.0325, 11.8, 4000\n0.0275, 15.7, 4000\n0.025, 19.6, 4000\n"
     ],
     "additional_cooling_fan_speed": [
         "75"
@@ -27,13 +27,13 @@
         "0.9625"
     ],
     "filament_max_volumetric_speed": [
-        "30"
+        "35"
     ],
     "filament_retract_when_changing_layer": [
         "1"
     ],
     "filament_retraction_length": [
-        "0.6"
+        "0.5"
     ],
     "filament_retraction_speed": [
         "35"
